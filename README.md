@@ -1,6 +1,11 @@
 Automated Bin Alert System
 A serverless IoT pipeline simulating a smart dustbin. A software-only "bin" publishes fake sensor telemetry over MQTT to AWS IoT Core; the readings flow through an AWS Lambda into DynamoDB, and a scheduled Lambda automatically alerts via SNS when a bin needs collection, has a low battery, or has gone silent.
 
+
+Daily checks verification code:
+WTC-GXBUU3MB
+
+
 Java / Maven implementation, built as a multi-module project so it opens cleanly in IntelliJ.
 
 Project structure
